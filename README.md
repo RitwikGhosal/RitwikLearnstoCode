@@ -77,6 +77,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Shared-Memory Bank Conflict Analyzer | Analyze GPU shared-memory addresses by warp, reporting bank indices and the conflict degree for each access step. | https://www.tensortonic.com/problems/cs336-l05-shared-memory-bank-conflicts |
 | Masked Triton GELU Kernel | Implement masked tanh-approximate GELU in Triton for contiguous CUDA tensors, partial final blocks, and multiple dtypes. | https://www.tensortonic.com/problems/cs336-l06-triton-masked-gelu |
 | Triton Row-Wise Softmax | Implement stable row-wise softmax in Triton for padded CUDA rows, partial tiles, and float32, float16, or bfloat16 data. | https://www.tensortonic.com/problems/cs336-l06-triton-row-softmax |
+| Calculate Collective Effective Bandwidth | Calculate ring-equivalent algorithm bytes per rank and effective bandwidth for a supported collective. | https://www.tensortonic.com/problems/cs336-l07-collective-bandwidth |
 | Simulate Distributed Collectives | Simulate all-gather, sum reduce-scatter, sum all-reduce, and all-to-all over rank-ordered one-dimensional tensors. | https://www.tensortonic.com/problems/cs336-l07-simulate-collectives |
 | Cumulative Returns | Convert a sequence of periodic returns into cumulative compounded returns at every time-series position. | https://www.tensortonic.com/problems/cumulative-returns |
 | Cyclic Encoding | Encode periodic numeric features as sine and cosine coordinates using a specified cycle length. | https://www.tensortonic.com/problems/cyclic-encoding |
