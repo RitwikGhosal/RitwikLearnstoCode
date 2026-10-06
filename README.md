@@ -79,6 +79,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Triton Row-Wise Softmax | Implement stable row-wise softmax in Triton for padded CUDA rows, partial tiles, and float32, float16, or bfloat16 data. | https://www.tensortonic.com/problems/cs336-l06-triton-row-softmax |
 | Calculate Collective Effective Bandwidth | Calculate ring-equivalent algorithm bytes per rank and effective bandwidth for a supported collective. | https://www.tensortonic.com/problems/cs336-l07-collective-bandwidth |
 | Simulate Distributed Collectives | Simulate all-gather, sum reduce-scatter, sum all-reduce, and all-to-all over rank-ordered one-dimensional tensors. | https://www.tensortonic.com/problems/cs336-l07-simulate-collectives |
+| Compute Temperature-Based Data Mixtures | Compute temperature-adjusted source sampling probabilities, expected sampled tokens, and expected epochs. | https://www.tensortonic.com/problems/cs336-l14-temperature-data-mixture |
 | Cumulative Returns | Convert a sequence of periodic returns into cumulative compounded returns at every time-series position. | https://www.tensortonic.com/problems/cumulative-returns |
 | Cyclic Encoding | Encode periodic numeric features as sine and cosine coordinates using a specified cycle length. | https://www.tensortonic.com/problems/cyclic-encoding |
 | Implement Dice Loss | Compute Dice loss for segmentation predictions using overlap, total mass, and a numerical smoothing term. | https://www.tensortonic.com/problems/dice-loss |
